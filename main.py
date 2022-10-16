@@ -34,7 +34,7 @@ def q_add_iterable(counts): # checks what values were returned
             counts[o]
             x=o
             break
-        else KeyError:
+        except KeyError:
             x=0
     return x
         
