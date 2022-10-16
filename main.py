@@ -1,6 +1,3 @@
-# Textbook used: https://learn.qiskit.org/course/introduction/the-atoms-of-computation
-
-import matplotlib.pyplot as plt
 from qiskit import QuantumCircuit
 from qiskit.providers.aer import AerSimulator
 
@@ -72,8 +69,8 @@ def full_add(n1,n2):
 
     return answer
 
-n1 = "1101001000110"
-n2 = "10010001101"
+a = "1101001000110"
+b = "10010001101"
 
 print(full_add("1101001000110","10010001101"))
 
